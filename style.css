@@ -1,0 +1,82 @@
+/* Set div styles */
+/* responsive design flex */
+*{
+    /* sbackground-color:crimson; */
+}
+h1{
+    margin:10px;
+}
+
+header {
+    border: 3px solid yellow;
+    background-color:pink;
+
+}
+header div{
+    border:2px solid;
+    width:30%;
+    margin:10px;
+}
+nav{
+    display:flex;
+    justify-content: flex-end;
+}
+
+nav a{
+    padding:5px;
+    text-decoration:underline;
+}
+
+/* move to the end of the container */
+.sections_of_website section{
+    display:flex;
+    width:70%;
+    margin:10px;
+    border:2px dashed whitesmoke;
+}
+h2{
+    border:2px dotted purple;
+    margin:5px;
+}
+/* content class will have a left border  */
+.content{
+    width:60%;
+    margin:10px;
+    padding:15px;
+    display:flex;
+    border-style: double double double solid;
+    border-left-color: aqua;
+
+}
+.social_contacts{
+    display:flex;
+    gap:1rem;
+    margin-top:.5rem;
+}
+
+.icon-github{
+    -webkit-mask-image:url(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png);
+    mask-image: url(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png);
+}
+.icon_gmail{
+    -webkit-mask-image:(https://lh3.googleusercontent.com/0rpHlrX8IG77awQMuUZpQ0zGWT7HRYtpncsuRnFo6V3c8Lh2hPjXnEuhDDd-OsLz1vua4ld2rlUYFAaBYk-rZCODmi2eJlwUEVsZgg);
+    mask-image: url(https://lh3.googleusercontent.com/0rpHlrX8IG77awQMuUZpQ0zGWT7HRYtpncsuRnFo6V3c8Lh2hPjXnEuhDDd-OsLz1vua4ld2rlUYFAaBYk-rZCODmi2eJlwUEVsZgg);
+}
+.social_contacts .icon{
+    display:block;
+    height:21px;
+    width:21px;
+
+}
+.icon{
+    background-color:pink;
+    mask-position:center;
+    mask-repeat:no-repeat;
+}
+ul{
+    list-style:none;
+    display:flex;
+}
+main{
+    border:2px solid yellow;
+}
