@@ -104,7 +104,7 @@ main{
     display:flex;
 
 }
-.primary_image{
+.primary_image, .secondary_images{
     opacity:0.5;
     position: relative;
 
