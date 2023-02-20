@@ -18,6 +18,7 @@ header div{
     border:2px solid;
     width:40%;
     margin:10px;
+    background-color: #b60386;
 }
 nav{
     display:flex;
@@ -98,6 +99,11 @@ main{
 .project_pic{
     width:100%;
 }
+.project_pic1{
+    width:47%;
+    height:100%;
+    object-fit:contains;
+}
 .section_1, .section_2{
     display:flex;
 
@@ -109,6 +115,10 @@ main{
 }
 .primary_image {
     position:relative;
+}
+.primary_image1{
+    position:relative;
+    width:1000px;
 }
 .section_1{
     position:relative;
