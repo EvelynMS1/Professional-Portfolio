@@ -97,14 +97,12 @@ main{
 }
 .project_pic{
     width:100%;
-    
-
 }
 .section_1, .section_2{
     display:flex;
 
 }
-.primary_image, .secondary_images{
+.project_pic{
     opacity:0.5;
     position: relative;
 
@@ -131,7 +129,7 @@ main{
 }
 
 
-.primary_image:hover{
+.project_pic:hover{
     opacity: initial;
 }
 
