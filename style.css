@@ -107,6 +107,9 @@ main{
     position: relative;
 
 }
+.primary_image {
+    position:relative;
+}
 .section_1{
     position:relative;
 }
@@ -127,6 +130,7 @@ main{
     bottom:20px;
     left:480px;
 }
+
 
 
 .project_pic:hover{
