@@ -8,9 +8,10 @@ h1{
 }
 
 header {
-    
-    border: 3px solid yellow;
-    background-color:#F25081;
+    display:flex;
+    justify-content:space-between;
+    border: 3px solid #930dc1;
+    background-color:#e10458;
 
 }
 header div{
@@ -62,9 +63,10 @@ h2{
     /* -webkit-mask-image:url(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png);
     mask-image: url(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png);
 } */
-.icon_gmail{
-    -webkit-mask-image:(https://lh3.googleusercontent.com/0rpHlrX8IG77awQMuUZpQ0zGWT7HRYtpncsuRnFo6V3c8Lh2hPjXnEuhDDd-OsLz1vua4ld2rlUYFAaBYk-rZCODmi2eJlwUEVsZgg);
-    mask-image: url(https://lh3.googleusercontent.com/0rpHlrX8IG77awQMuUZpQ0zGWT7HRYtpncsuRnFo6V3c8Lh2hPjXnEuhDDd-OsLz1vua4ld2rlUYFAaBYk-rZCODmi2eJlwUEVsZgg);
+.image_background img{
+    width:100%;
+    height:200px;
+    object-fit:fill;
 }
 .social_contacts img{
     display:block;
@@ -83,7 +85,7 @@ ul{
 }
 main{
    
-    border:2px solid yellow;
+    border:2px solid #b60386;
 }
 .sections_of_website img{
     max-height: 200px;
