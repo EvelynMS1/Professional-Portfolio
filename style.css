@@ -28,7 +28,12 @@ nav{
 nav a{
     padding:5px;
     text-decoration:underline 2px;
+    
 }
+.resizable{
+    resize:horizontal;
+}
+
 
 /* move to the end of the container */
 .sections_of_website section{
@@ -160,6 +165,11 @@ main{
     .section_1, .section_2{
         display:block;
     
+    }
+  }
+  @MEDIA SCREEN and (max-width:600px){
+    .first_text_ofsecomdary_image{
+        display:block;
     }
   }
   
