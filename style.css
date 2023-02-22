@@ -30,9 +30,13 @@ nav a{
     text-decoration:underline 2px;
     
 }
+nav li{
+    display:inline;
+}
 .resizable{
     resize:horizontal;
 }
+
 
 
 /* move to the end of the container */
@@ -42,14 +46,17 @@ nav a{
     margin:10px;
     border:2px dashed whitesmoke;
 }
+.About_me{
+    resize:both;
+}
 h2{
-    display:flex;
-    justify-content:flex-end;
+    
     width:15%;
     border:2px dotted purple;
     margin:5px;
     background-image: url("./Assets/geomet.jpg");
     background-size: contain;
+    resize:both;
 }
 /* content class will have a left border  */
 .content{
@@ -76,7 +83,7 @@ h2{
 .image_background img{
     width:100%;
     height:170px;
-    object-fit:fill;
+   
 }
 .social_contacts img{
     display:block;
@@ -91,7 +98,7 @@ h2{
 } */
 ul{
     list-style:none;
-    display:flex;
+
 }
 main{
    
@@ -111,10 +118,7 @@ main{
     height:100%;
     object-fit:contains;
 }
-.section_1, .section_2{
-    display:flex;
 
-}
 .project_pic{
     opacity:0.5;
     position: relative;
@@ -125,31 +129,39 @@ main{
 }
 .primary_image {
     position:relative;
+    display:flex;
 }
+
 .primary_image1{
     position:relative;
     width:1000px;
 }
 .section_1{
     position:relative;
+    margin:10px;
+ 
 }
 .section_2{
     position:relative;
+    margin:5px;
+}
+.secondary_images{
+    display:flex;
+    width:100%;
+}
+
+.project_pic2{
+    position:relative;
+    width:500px;
 }
 .first_text{
     background-color: blueviolet;
-    padding:10px;
     position:absolute;
+    padding:10px;
     bottom:20px;
     left:5px;
 }
-.first_text_ofsecomdary_image{
-    background-color: blueviolet;
-    padding:10px;
-    position:absolute;
-    bottom:20px;
-    left:480px;
-}
+
 
 
 
@@ -167,7 +179,8 @@ main{
     
     }
   }
-  @MEDIA SCREEN and (max-width:600px){
+
+@media screen and (max-width:600px){
     .first_text_ofsecomdary_image{
         display:block;
     }
