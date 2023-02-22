@@ -1,23 +1,16 @@
-/* Set div styles */
-/* responsive design flex */
-*{
-    /* sbackground-color:crimson; */
-}
-h1{
-    margin:10px;
-}
-
 header {
     display:flex;
     justify-content:space-between;
     border: 3px solid #930dc1;
     background-color:#e10458;
-
 }
-header div{
-    border:2px solid;
-    width:40%;
+h1{
     margin:10px;
+}
+header div{ 
+    margin:10px;   
+    width:40%;
+    border:2px solid;
     background-color: #b60386;
 }
 nav{
@@ -27,137 +20,93 @@ nav{
 
 nav a{
     padding:5px;
-    text-decoration:underline 2px;
-    
+    text-decoration:underline 2px;  
 }
 nav li{
     display:inline;
 }
-.resizable{
-    resize:horizontal;
+ul{
+    list-style:none;
 }
 
-
-
-/* move to the end of the container */
-.sections_of_website section{
-    display:flex;
-    width:95%;
-    margin:10px;
-    border:2px dashed whitesmoke;
+main{
+    border:2px solid #b60386;
 }
-.About_me{
-    resize:both;
-}
-h2{
-    
-    width:15%;
-    border:2px dotted purple;
-    margin:5px;
-    background-image: url("./Assets/geomet.jpg");
-    background-size: contain;
-    resize:both;
-}
-/* content class will have a left border  */
-.content{
-    width:80%;
-    margin:10px;
-    padding:15px;
-    /* display:flex; */ 
-    border-style: double double double solid;
-    border-left-color: aqua;
-
-}
-.social_contacts{
-    display:flex;
-    justify-content:center;
-    
-    gap:1rem;
-    margin-top:.5rem;
-}
-
-/* .icon-github{ */
-    /* -webkit-mask-image:url(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png);
-    mask-image: url(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png);
-} */
 .image_background img{
     width:100%;
     height:170px;
    
 }
-.social_contacts img{
-    display:block;
-    height:24px;
-    width:24px;
+/* move to the end of the container */
+.sections_of_website section{
+    display:flex;
+    margin:10px;
+    border:2px dashed whitesmoke;
+}
 
+h2{   
+    margin:5px;
+    width:15%;
+    border:2px dotted purple;
+    background-image: url("./Assets/geomet.jpg");
+    background-size: contain;
+ 
 }
-/* .icon{
-    background-color:pink;
-    mask-position:center;
-    mask-repeat:no-repeat;
-} */
-ul{
-    list-style:none;
 
+/* content class will have a left border  */
+.content{    
+    margin:10px;
+    width:80%;
+    padding:15px;
+    /* display:flex; */ 
+    border-style: double double double solid;
+    border-left-color: aqua;
 }
-main{
-   
-    border:2px solid #b60386;
-}
+
 .sections_of_website img{
     max-height: 200px;
     border:2px solid lavender;
-  
+}
 
+.secondary_images,.primary_image{
+    display:flex;
+    /* width:100%; */
 }
-.project_pic{
+.firstrow{
+    position:relative;
     width:100%;
-    margin:5px;
 }
-.project_pic1{
+
+.project_pic1{  
+    margin:5px;
     width:47%;
     height:100%;
-    object-fit:contains;
-    opacity:0.5;
+    object-fit:cover;
+ 
+}
+.secondrow{
+  position:relative;
+    margin:5px;
+    width:100%;
+
+}
+ .project_pic{  
+    width:100%;
+} 
+.section_1,.section_2{
     position:relative;
     margin:5px;
+    justify-content: space-between;
+ 
 }
-
-.project_pic{
+ .project_pic2{
+    width:500px;
+}  
+.project_pic, .project_pic2, .project_pic1{
     opacity:0.5;
     position: relative;
 }
-.project_pic2{
-    opacity:0.5;
-    position:relative;
-}
 
-.primary_image {
-    position:relative;
-    display:flex;
-    width:100%
-}
-
-
-.section_1{
-    position:relative;
-    margin:5px;
-    width:500px;
- 
-}
-.section_2{
-    position:relative;
-    margin:5px;
-}
-.secondary_images{
-    display:flex;
-    width:100%;
-}
-
-.project_pic2{
-    position:relative;
-    width:500px;
-}
 .first_text{
     background-color: blueviolet;
     position:absolute;
@@ -165,33 +114,33 @@ main{
     bottom:20%;
     left:.5%;
 }
-
-
-
-
-.project_pic:hover{
+.project_pic:hover, .project_pic1:hover, .project_pic2:hover{
     opacity: initial;
 }
-.project_pic1:hover{
-    opacity:initial;
-}
-.project_pic2:hover{
-    opacity:initial;
+
+.social_contacts{
+    display:flex;
+    justify-content:center; 
+    gap:1rem;
+    margin-top:.5rem; 
 }
 
 
-@media screen and (max-width: 600px) {
+.social_contacts img{
+    display:block;
+    height:24px;
+    width:24px;
+
+}
+
+@media screen and (max-width: 400px) {
     .section_1, .section_2{
         display:block;
     
     }
   }
 
-@media screen and (max-width:600px){
-    .first_text_ofsecomdary_image{
-        display:block;
-    }
-  }
+
   
 
 /* CREATE A CARD DISPLAY FOR THE IMAGES FOR WHEN THE WEBSITE IS RESIZED */
