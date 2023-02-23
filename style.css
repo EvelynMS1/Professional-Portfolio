@@ -54,7 +54,7 @@ h2{
 }
 
 /* content class will have a left border  */
-.content{    
+.work_content, .about_content{    
     margin:10px;
     width:80%;
     padding:15px;
@@ -68,11 +68,11 @@ h2{
     border:2px solid lavender;
 }
 
-.secondary_images,.primary_image{
+.multiple_item_row,.finished_project_row,.large_project_row{
     display:flex;
     /* width:100%; */
 }
-.firstrow{
+.first_item{
     position:relative;
     width:100%;
 }
@@ -84,7 +84,7 @@ h2{
     object-fit:cover;
  
 }
-.secondrow{
+.first_item_of_LPR{
   position:relative;
     margin:5px;
     width:100%;
@@ -93,7 +93,7 @@ h2{
  .project_pic{  
     width:100%;
 } 
-.section_1,.section_2{
+.item_1,.item_2{
     position:relative;
     margin:5px;
     justify-content: space-between;
@@ -134,7 +134,7 @@ h2{
 }
 
 @media screen and (max-width: 400px) {
-    .section_1, .section_2{
+    .item_1, .item_2{
         display:block;
     
     }
