@@ -63,21 +63,7 @@ h2{
     background-size: contain;
  
 }
-/* .finished_project_row, .large_project_row{
-    display:flex;
-    flex-direction: column;
-} */
- /* .multiple_item_row{
-    display:flex;
-    flex-direction:column;
- 
-    
-}  */
-/* .item_1, .item_2{
-    flex:50%;
-    
-} */
-/* divs containing work and about content  */
+aining work and about content  */
 .work_content, .about_content, .contact_me_content{    
     margin:10px;
     width:80%;
@@ -91,12 +77,7 @@ h2{
     max-height: 200px;
     border:2px solid lavender;
 }
-/* makes sections a flex container conatining div sections */
-/* .multiple_item_row,.finished_project_row,.large_project_row{
-    display:flex;
-    /* width:100%; */
 
-/* divs that contain an image  adding relative property for positioning to be applied */
 .first_item{
     position:relative;
     width:100%;
@@ -143,6 +124,7 @@ h2{
     padding:10px;
     bottom:20%;
     left:.5%;
+   
 }
 
 /*  */
@@ -162,10 +144,14 @@ h2{
 }
 
 @media screen and (max-width: 400px) {
-    .multiple_item_row{
+    .multiple_item_row, header{
         display:block;
     
     }
+    .text_box_tag{
+        font-size:10px;
+    }
+    
   }
 
 
