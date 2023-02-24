@@ -1,5 +1,6 @@
+/*  */
 header {
-    display:flex;
+    display:flex; 
     justify-content:space-between;
     border: 3px solid #930dc1;
     background-color:#e10458;
@@ -7,24 +8,28 @@ header {
 h1{
     margin:10px;
 }
+
 header div{ 
     margin:10px;   
     width:40%;
     border:2px solid;
     background-color: #b60386;
 }
+/* Makes the nav portion a flex container */
 nav{
     display:flex;
     justify-content: flex-end;
 }
-
+/* gives the anchor tags a underline */
 nav a{
     padding:5px;
     text-decoration:underline 2px;  
 }
+/* Moves the list items to an inline display different from default block format */
 nav li{
     display:inline;
 }
+/* Removes list bullet points */
 ul{
     list-style:none;
 }
@@ -37,13 +42,19 @@ main{
     height:170px;
    
 }
-/* move to the end of the container */
+/* */
 .sections_of_website section{
     display:flex;
     margin:10px;
     border:2px dashed whitesmoke;
 }
-
+ .work_content{
+    flex-direction:column;
+} 
+.multiple_item_row{
+    display:flex;
+    flex-direction:row;
+}
 h2{   
     margin:5px;
     width:15%;
@@ -52,13 +63,26 @@ h2{
     background-size: contain;
  
 }
-
-/* content class will have a left border  */
-.work_content, .about_content{    
+/* .finished_project_row, .large_project_row{
+    display:flex;
+    flex-direction: column;
+} */
+ /* .multiple_item_row{
+    display:flex;
+    flex-direction:column;
+ 
+    
+}  */
+/* .item_1, .item_2{
+    flex:50%;
+    
+} */
+/* divs containing work and about content  */
+.work_content, .about_content, .contact_me_content{    
     margin:10px;
     width:80%;
     padding:15px;
-    /* display:flex; */ 
+    display:flex;  
     border-style: double double double solid;
     border-left-color: aqua;
 }
@@ -67,22 +91,15 @@ h2{
     max-height: 200px;
     border:2px solid lavender;
 }
-
-.multiple_item_row,.finished_project_row,.large_project_row{
+/* makes sections a flex container conatining div sections */
+/* .multiple_item_row,.finished_project_row,.large_project_row{
     display:flex;
     /* width:100%; */
-}
+
+/* divs that contain an image  adding relative property for positioning to be applied */
 .first_item{
     position:relative;
     width:100%;
-}
-
-.project_pic1{  
-    margin:5px;
-    width:47%;
-    height:100%;
-    object-fit:cover;
- 
 }
 .first_item_of_LPR{
   position:relative;
@@ -90,15 +107,25 @@ h2{
     width:100%;
 
 }
- .project_pic{  
-    width:100%;
-} 
 .item_1,.item_2{
     position:relative;
     margin:5px;
     justify-content: space-between;
  
 }
+/*  */
+.project_pic1{  
+    margin:5px;
+    width:47%;
+    height:100%;
+    object-fit:cover;
+ 
+}
+
+ .project_pic{  
+    width:100%;
+} 
+
  .project_pic2{
     width:500px;
 }  
@@ -106,18 +133,19 @@ h2{
     opacity:0.5;
     position: relative;
 }
-
-.first_text{
+.project_pic:hover, .project_pic1:hover, .project_pic2:hover{
+    opacity: initial;
+}
+/*  */
+.text_box_tag{
     background-color: blueviolet;
     position:absolute;
     padding:10px;
     bottom:20%;
     left:.5%;
 }
-.project_pic:hover, .project_pic1:hover, .project_pic2:hover{
-    opacity: initial;
-}
 
+/*  */
 .social_contacts{
     display:flex;
     justify-content:center; 
@@ -134,7 +162,7 @@ h2{
 }
 
 @media screen and (max-width: 400px) {
-    .item_1, .item_2{
+    .multiple_item_row{
         display:block;
     
     }
@@ -142,7 +170,3 @@ h2{
 
 
   
-
-/* CREATE A CARD DISPLAY FOR THE IMAGES FOR WHEN THE WEBSITE IS RESIZED */
-/* Create a fading effect for the pictures and add a text box to the image */
-/* yellow box figure out the spacing */
