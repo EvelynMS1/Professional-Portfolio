@@ -8,8 +8,9 @@ header {
 h1{
     margin:10px;
 }
-
-header div{ 
+/* assigning the width of the div withing the header */
+.name_tag, .nav_container{ 
+  
     margin:10px;   
     width:40%;
     border:2px solid;
@@ -33,29 +34,34 @@ nav li{
 ul{
     list-style:none;
 }
-
+/* main section of website bordered out */
 main{
     border:2px solid #b60386;
 }
+/*  image under header dimensions */
 .image_background img{
     width:100%;
     height:170px;
    
 }
-/* */
+/*selects the sections that are within the class sections of website */
 .sections_of_website section{
     display:flex;
+    flex-wrap:wrap;
     margin:10px;
     border:2px dashed whitesmoke;
 }
+/*flex items within the class work_content is a column  */
  .work_content{
     flex-direction:column;
 } 
+/* makes this section a flex container with flex property of row  */
 .multiple_item_row{
     display:flex;
     flex-direction:row;
 }
-h2{   
+/* left part of website with h2 within div  */
+.side_content{   
     margin:5px;
     width:15%;
     border:2px dotted purple;
@@ -63,7 +69,7 @@ h2{
     background-size: contain;
  
 }
-aining work and about content  */
+/* divs located to right of class side content of website   */
 .work_content, .about_content, .contact_me_content{    
     margin:10px;
     width:80%;
@@ -72,32 +78,34 @@ aining work and about content  */
     border-style: double double double solid;
     border-left-color: aqua;
 }
-
+/* sizes the image height */
 .sections_of_website img{
     max-height: 200px;
     border:2px solid lavender;
 }
-
+/* div containing pictures parent, first picture, second picture and item_1 item_2  initializing position to relative */
 .first_item{
     position:relative;
     width:100%;
 }
+/*  */
 .first_item_of_LPR{
   position:relative;
     margin:5px;
     width:100%;
 
 }
+/*  */
 .item_1,.item_2{
     position:relative;
     margin:5px;
     justify-content: space-between;
  
 }
-/*  */
+/* image within the parent having size demensions declared */
 .project_pic1{  
     margin:5px;
-    width:47%;
+    width:100%;
     height:100%;
     object-fit:cover;
  
@@ -110,14 +118,16 @@ aining work and about content  */
  .project_pic2{
     width:500px;
 }  
+/* setting image to an opacity */
 .project_pic, .project_pic2, .project_pic1{
     opacity:0.5;
-    position: relative;
+   
 }
+/* reverts opacity on image to no opacity */
 .project_pic:hover, .project_pic1:hover, .project_pic2:hover{
     opacity: initial;
 }
-/*  */
+/* Purple background text displayed on photos*/
 .text_box_tag{
     background-color: blueviolet;
     position:absolute;
@@ -127,7 +137,7 @@ aining work and about content  */
    
 }
 
-/*  */
+/*list within contact me section  as flex container  */
 .social_contacts{
     display:flex;
     justify-content:center; 
@@ -135,7 +145,7 @@ aining work and about content  */
     margin-top:.5rem; 
 }
 
-
+/* dimension to the image placed within anchor tag  */
 .social_contacts img{
     display:block;
     height:24px;
@@ -143,16 +153,38 @@ aining work and about content  */
 
 }
 
-@media screen and (max-width: 400px) {
-    .multiple_item_row, header{
+@media screen and (max-width: 860px) {
+    /*displays content as block  */
+    .multiple_item_row{
         display:block;
     
     }
+    /*resizes font to fit accordingly  */
     .text_box_tag{
-        font-size:10px;
+        font-size:15px;
     }
+    /* changes to fit width size */
+    .side_content{
+        flex:100%;
+        height:50px;
+
+    }
+/* centers content */
+    .sections_of_website section{
+        justify-content: center;
+    }
+    /* pchanges content to column display from default inline display*/
+    header{
+       flex-direction:column;
+     
+    }
+    /* width of divs within header to a width suitable to website size */
+    .name_tag, .nav_container{  
+         width:95%;
+    }  
     
-  }
+}
+
 
 
   
