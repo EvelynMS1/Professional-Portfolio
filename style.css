@@ -1,4 +1,4 @@
-/*  */
+/* setting flex property to header */
 header {
     display:flex; 
     justify-content:space-between;
@@ -8,9 +8,8 @@ header {
 h1{
     margin:10px;
 }
-/* assigning the width of the div withing the header */
+/* assigning the width of the div within the header */
 .name_tag, .nav_container{ 
-  
     margin:10px;   
     width:40%;
     border:2px solid;
@@ -21,7 +20,7 @@ nav{
     display:flex;
     justify-content: flex-end;
 }
-/* gives the anchor tags a underline */
+/* gives the anchor tags an underline */
 nav a{
     padding:5px;
     text-decoration:underline 2px;  
@@ -38,7 +37,7 @@ ul{
 main{
     border:2px solid #b60386;
 }
-/*  image under header dimensions */
+/* specifying dimensions to image under header */
 .image_background img{
     width:100%;
     height:170px;
@@ -78,31 +77,31 @@ main{
     border-style: double double double solid;
     border-left-color: aqua;
 }
-/* sizes the image height */
+/* height specified for image */
 .sections_of_website img{
     max-height: 200px;
     border:2px solid lavender;
 }
-/* div containing pictures parent, first picture, second picture and item_1 item_2  initializing position to relative */
+/* div containing the parent of pictures including first picture, second picture and item_1 item_2  initializing position to relative */
 .first_item{
     position:relative;
     width:100%;
 }
-/*  */
+
 .first_item_of_LPR{
   position:relative;
     margin:5px;
     width:100%;
 
 }
-/*  */
+
 .item_1,.item_2{
     position:relative;
     margin:5px;
     justify-content: space-between;
  
 }
-/* image within the parent having size demensions declared */
+/* size demensions declared for image within parent div */
 .project_pic1{  
     margin:5px;
     width:100%;
@@ -118,12 +117,12 @@ main{
  .project_pic2{
     width:500px;
 }  
-/* setting image to an opacity */
+/* setting opacity to image   */
 .project_pic, .project_pic2, .project_pic1{
     opacity:0.5;
    
 }
-/* reverts opacity on image to no opacity */
+/* reverts opacity on image to parents opacity, in this case no opacity */
 .project_pic:hover, .project_pic1:hover, .project_pic2:hover{
     opacity: initial;
 }
@@ -137,7 +136,7 @@ main{
    
 }
 
-/*list within contact me section  as flex container  */
+/*list within contact me section set as flex container  */
 .social_contacts{
     display:flex;
     justify-content:center; 
@@ -169,16 +168,16 @@ main{
         height:50px;
 
     }
-/* centers content */
+    /* centers content */
     .sections_of_website section{
         justify-content: center;
     }
-    /* pchanges content to column display from default inline display*/
+    /*changes content to column display from default inline display*/
     header{
        flex-direction:column;
      
     }
-    /* width of divs within header to a width suitable to website size */
+    /* width of divs within header to a width suitable to smaller website size */
     .name_tag, .nav_container{  
          width:95%;
     }  

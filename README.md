@@ -1,14 +1,8 @@
 # Professional-Portfolio
-## Description
- 
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+## Description 
+The motivation of creating this website was for work involving my html css and javascript skills be displayed as a website in order for future employers to view my experience and knowledge behind these skills. The reason behind building this project was to challenge me into building a website from scratch with no starter code. In order for me to meet the goal of completing a website on my own, involved me to organize effectively and have a plan of action. This website provides the solution of having a website where future projects that I complete will be showcased. I learned how to create a website that incorporates interactivness and responsivness by using the flex property and learning how sectioning and having a rough draft of a websites layout is vital for minimizing the roadblocks throughout the process of building a project.
 
-- What was your motivation?
-The motivation of creating this website was that of my work involving my html css and javascript skills be displayed in order for future employers to view experience and knowledge behind these skills. The reason behind building this project was to challenge me into building a website from scratch with no starter code, meeting the goal of completing a website on my own, involving me to organize effectively and have a plan of action for completing the project in parts. This website provides the solution of having a website where future projects that I complete will be showcased as well as building and growing my skills in HTML, CSS and Javascript. I learned how to create a website that incorporates interactivness and responsivness by using the flex property and learning how sectioning and having a rough draft of the layout of a page is vital for minimizing the roadblocks through the process of building a project.
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
 
 ## Installation
