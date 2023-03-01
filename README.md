@@ -15,7 +15,7 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-![alt text](assets/images/screenshot.png)
+![alt text](assets/Screenshot%202023-02-28%20at%2016-32-59%20Professional%20Portfolio.png)
 
 ## Credits
 N/A
