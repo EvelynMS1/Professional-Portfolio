@@ -39,9 +39,17 @@ main{
 }
 /* specifying dimensions to image under header */
 .image_background img{
+    position:relative;
     width:100%;
     height:170px;
    
+}
+.image_background{
+    position:relative;
+}
+.avatar_icon{
+    position:absolute;
+    top:12px;
 }
 /*selects the sections that are within the class sections of website */
 .sections_of_website section{
