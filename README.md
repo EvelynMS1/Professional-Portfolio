@@ -11,7 +11,7 @@ N/A.
 
 ## Usage
 <https://evelynms1.github.io/Professional-Portfolio/>
-![Screenshot of Porfessional Portfolio](assets/Screenshot%202023-02-28%20at%2016-32-59%20Professional%20Portfolio.png 'picture of the portfolio')
+![Screenshot of Porfessional Portfolio](assets/Screenshot%202023-02-28%20at%2016-32-59%20Professional%20Portfolio.png )
 
 ## Credits
 N/A
