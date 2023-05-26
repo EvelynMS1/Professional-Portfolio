@@ -72,6 +72,7 @@ main{
     margin:5px;
     width:15%;
     border:2px dotted purple;
+    color:aqua;
     background-image: url("./Assets/geomet.jpg");
     background-size: contain;
  
@@ -97,7 +98,7 @@ main{
 }
 
 .first_item_of_LPR{
-  position:relative;
+  display:block;
     margin:5px;
     width:100%;
 
@@ -191,7 +192,31 @@ main{
     }  
     
 }
+/* parent */
+.container{
+    display:flex;
+   
 
+}
+.holdimg img{
+    width:20px;
+    height:20px;
+
+}
+.holdimg{
+    display:flex;
+    justify-content: flex-start;
+}
+.centereddiv{
+    display:flex;
+    justify-content: center;
+}
+/* div holding img child of conatiner */
+
+/* div holding set od divs child of container sibling of hold img */
+/* .container div{
+  
+} */
 
 
   
