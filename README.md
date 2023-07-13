@@ -1,20 +1,24 @@
 # Professional-Portfolio
 
-## Description 
+## Description
+
 The motivation of creating this website was for work involving my html css and javascript skills be displayed as a website in order for future employers to view my experience and knowledge behind these skills. The reason behind building this project was to challenge me into building a website from scratch with no starter code. In order for me to meet the goal of completing a website on my own, involved me to organize effectively and have a plan of action. This website provides the solution of having a website where future projects that I complete will be showcased. I learned how to create a website that incorporates interactivness and responsivness by using the flex property and learning how sectioning and having a rough draft of a websites layout is vital for minimizing the roadblocks throughout the process of building a project.
-
-
+![Portfolio](./Assets/Screenshot%202023-07-12%20at%2020-56-40%20Professional%20Portfolio.png)
+[Deployed Portfolio](https://evelynms1.github.io/Professional-Portfolio/)
 
 ## Installation
 
 N/A.
 
 ## Usage
+
 <https://evelynms1.github.io/Professional-Portfolio/>
-![Screenshot of Porfessional Portfolio](assets/Screenshot%202023-02-28%20at%2016-32-59%20Professional%20Portfolio.png )
+![Screenshot of Porfessional Portfolio](assets/Screenshot%202023-02-28%20at%2016-32-59%20Professional%20Portfolio.png)
 
 ## Credits
+
 N/A
+
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
