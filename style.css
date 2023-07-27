@@ -42,7 +42,7 @@ main {
 #pinkback {
   position: relative;
   width: 100%;
-  height: 170px;
+  height: 250px;
 }
 .image_background {
   position: relative;
@@ -93,12 +93,12 @@ main {
   border: 2px solid lavender;
 }
 /* div containing the parent of pictures including first picture, second picture and item_1 item_2  initializing position to relative */
-.first_item {
+.project_item {
   position: relative;
   width: 100%;
 }
 
-.first_item_of_LPR {
+.item_of_LargeProjectRow {
   display: block;
   margin: 5px;
   width: 100%;
@@ -210,4 +210,3 @@ main {
   width: 130px;
   top: 20px;
 }
-

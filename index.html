@@ -1,47 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Professional Portfolio</title>
-  </head>
-  <body>
-    <main>
-      <header>
-        <div class="name_tag">
-          <h1>EVELYN MONTES SOBAL</h1>
-        </div>    
-        <!-- Div containing navigation section with anchor tags that direct to the corresponding sections of the website content -->
-        <div class="nav_container">
-       
-          <nav>
-            <ul>
-              <li><a href="#About_me">About me</a></li>
-              <li><a href="#Work">Work</a></li>
-              <li><a href="#Contact_me">Contact me</a></li>
-              <!-- <li><a href="Resume">Resume</a></li> -->
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <!--Pink purple gradient photo underneath header  -->
-      <div class="image_background">
-        <img id = "pinkback" src="./Assets/verge-pathways-abstract-4k_1555208092.jpg.webp" />
-        <img id="redpic" src="./Assets/red.jpg">
-      <div class="container">
-        <div class="holdimg"><img src="./Assets/verge-pathways-abstract-4k_1555208092.jpg.webp"/></div>
-        
 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./reset.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Professional Portfolio</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="name_tag">
+        <h1>EVELYN MONTES SOBAL</h1>
       </div>
+      <!-- Div containing navigation section with anchor tags that direct to the corresponding sections of the website content -->
+      <div class="nav_container">
+
+        <nav>
+          <ul>
+            <li><a href="#About_me">About me</a></li>
+            <li><a href="#Work">Work</a></li>
+            <li><a href="#Contact_me">Contact me</a></li>
+            <!-- <li><a href="Resume">Resume</a></li> -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--Pink purple gradient photo underneath header  -->
+    <div class="image_background">
+      <img id="pinkback" src="./Assets/verge-pathways-abstract-4k_1555208092.jpg.webp" />
+      <img id="redpic" src="./Assets/red.jpg">
+    </div>
       <!-- Main section of website containing three sections of content  -->
       <section class="sections_of_website">
         <!-- first section, containing two child divs -->
         <section id="About_me">
           <div class="side_content">
-          <h2>ABOUT ME</h2>
+            <h2>ABOUT ME</h2>
           </div>
           <div class="about_content">
             <p>
@@ -58,115 +56,91 @@
         </section>
         <!--second section (work), with two children divs  -->
         <section id="Work">
+          <!-- first child d -->
           <div class="side_content">
-          <h2>WORK</h2>
+            <h2>WORK</h2>
           </div>
           <!-- second child of work section, containing four child divs -->
           <div class="work_content">
             <div class="finished_project_row">
-                <div class="first_item">   
-                    <a
-                      class="website_page"
-                      href="https://evelynms1.github.io/Accessibility_Refactoring_Optomizing_Search/"
-                      target="_blank"
-                      rel="noopener noreferrer">
-                      <img
-                class="project_pic1"
-                src="./Assets/01-html-css-git-homework-demo.png"
-                  /> 
-            </a> <h3 class="text_box_tag">Placeholder Project Image</h3>
-                </div>
-         
-            
+              <div class="project_item">
+                <a class="website_page" href="https://evelynms1.github.io/Accessibility_Refactoring_Optomizing_Search/"
+                  target="_blank" rel="noopener noreferrer">
+                  <img class="project_pic1" src="./Assets/01-html-css-git-homework-demo.png" />
+                </a>
+                <h3 class="text_box_tag">Refactoring Optimizer</h3>
+              </div>
+
+              <div class="project_item">
+                <a class="website_page"
+                  href="file:///C:/Users/monte/bootcamp/UC%20Berkley/Homeworkf/nutritional_project/workout-routine-app/index.html"
+                  target="_blank" rel="noopener noreferrer">
+                  <img class="project_pic" src="./Assets/project.jpg" id="image_1"
+                    alt="A photo of of a nutritional/ workout application." /></a>
+
+                <h3 class="text_box_tag">Nutriton App</h3>
+              </div>
+              <div class="project_item">
+                <a class="website_page" href="https://bookwebnetwork.herokuapp.com/" target="_blank"
+                  rel="noopener noreferrer">
+                  <img class="project_pic" src="./Assets/login.png" id="image_1"
+                    alt="A photo of a book application." /></a>
+
+                <h3 class="text_box_tag">Book Network</h3>
+              </div>
+
+              <div class="project_item">
+                <a class="website_page" href="https://alumni-book-app-cae10c9784e0.herokuapp.com/" target="_blank"
+                  rel="noopener noreferrer">
+                  <img class="project_pic" src="./Assets/alumniBook.png" id="image_1"
+                    alt="A photo of a book application." /></a>
+
+                <h3 class="text_box_tag">Alumni Book</h3>
+              </div>
             </div>
 
-            <div class="large_project_row">
-                <div class="first_item_of_LPR">
-                  <a class="website_page"
-                  href="file:///C:/Users/monte/bootcamp/UC%20Berkley/Homeworkf/nutritional_project/workout-routine-app/index.html"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                   <img
-                class="project_pic"
-                src="./Assets/project.jpg"
-                id="image_1"
-                alt="A photo of of a nutritional/ workout application."
-              /></a>
-                     
-              <h3 class="text_box_tag">Placeholder Project Image</h3>  
-                </div>
-                <div class="first_item_of_LPR">
-                  <a class="website_page"
-                  href="https://bookwebnetwork.herokuapp.com/"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                   <img
-                class="project_pic"
-                src="./Assets/login.png"
-                id="image_1"
-                alt="A photo of a book application."
-              /></a>
-                     
-              <h3 class="text_box_tag">Placeholder Project Image</h3>  
-                </div>
-         
-            </div>
+
+            
             <!-- div containting two children divs which each contain an image  -->
             <div class="multiple_item_row">
               <div class="item_1">
-                <img
-                  class="project_pic2"
-                  src="./Assets/Leaving Milkyway [3240x5760].png"
-                  alt="Picture of half the earth crossing from a different part of space through a geometrical triangle into a area of space."
-                />
+                <img class="project_pic2" src="./Assets/Leaving Milkyway [3240x5760].png"
+                  alt="Picture of half the earth crossing from a different part of space through a geometrical triangle into a area of space." />
                 <h3 class="text_box_tag">Placeholder Project Image</h3>
               </div>
 
               <div class="item_2">
-                <img
-                  class="project_pic2"
-                  src="./Assets/The mind of a reader.jpg"
-                  alt="a pictue of the milkyway colors tan aqua and marine blue."
-                />
+                <img class="project_pic2" src="./Assets/The mind of a reader.jpg"
+                  alt="a pictue of the milkyway colors tan aqua and marine blue." />
                 <h3 class="text_box_tag">Placeholder Project Image</h3>
               </div>
             </div>
 
             <div class="multiple_item_row">
               <div class="item_1">
-                <img
-                  class="project_pic2"
-                  src="./Assets/𒆜Gϋʅisƚαɳ❀𒆜.jpg"
-                  alt="A scenery of an sea with the beach sand pearing on level surface in a center path, in the night sky a cresent moon is present shining and providing light and glimmer across the sea with crystals adorning the bottom part of the cresent as well as sparkles and crystals of pink and peach on the sand itself"
-                />
+                <img class="project_pic2" src="./Assets/𒆜Gϋʅisƚαɳ❀𒆜.jpg"
+                  alt="A scenery of an sea with the beach sand pearing on level surface in a center path, in the night sky a cresent moon is present shining and providing light and glimmer across the sea with crystals adorning the bottom part of the cresent as well as sparkles and crystals of pink and peach on the sand itself" />
                 <h3 class="text_box_tag">Placeholder Project Image</h3>
               </div>
 
               <div class="item_2">
-                <img
-                  class="project_pic2"
-                  src="./Assets/fBWfChRh.jpg"
-                  alt="A scenery of an sea with the beach sand pearing on level surface in a center path, in the night sky a cresent moon is present shining and providing light and glimmer across the sea with crystals adorning the bottom part of the cresent as well as sparkles and crystals of pink and peach on the sand itself"
-                />
+                <img class="project_pic2" src="./Assets/fBWfChRh.jpg"
+                  alt="A scenery of an sea with the beach sand pearing on level surface in a center path, in the night sky a cresent moon is present shining and providing light and glimmer across the sea with crystals adorning the bottom part of the cresent as well as sparkles and crystals of pink and peach on the sand itself" />
                 <h3 class="text_box_tag">Placeholder Project Image</h3>
               </div>
             </div>
           </div>
         </section>
-<!-- Third section of the class sections of website -->
+        <!-- Third section of the class sections of website -->
         <section id="Contact_me">
           <div class="side_content">
-          <h2>CONTACT ME</h2>
-        </div>
+            <h2>CONTACT ME</h2>
+          </div>
           <div class="contact_me_content">
             <ul class="social_contacts">
               <li>
-                <a
-                  class="icon icon-github"
-                  href="https://github.com/EvelynMS1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a class="icon icon-github" href="https://github.com/EvelynMS1" target="_blank"
+                  rel="noopener noreferrer">
                   <img src="./Assets/icons8-github-24.png" alt="" srcset="" />
                 </a>
               </li>
@@ -178,6 +152,7 @@
           </div>
         </section>
       </section>
-    </main>
-  </body>
+  </main>
+</body>
+
 </html>
